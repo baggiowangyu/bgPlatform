@@ -52,11 +52,11 @@ int _tmain(int argc, _TCHAR* argv[])
 	//发出INFO级别的输出请求
 	while (true)
 	{
-		LOG4CXX_DEBUG(logger,_T("It really working...")); 
-		LOG4CXX_INFO(logger,_T("It really working..."));
-		LOG4CXX_WARN(logger,_T("It really working..."));
-		LOG4CXX_ERROR(logger,_T("It really working..."));
-		LOG4CXX_FATAL(logger,_T("It really working..."));
+		LOG4CXX_DEBUG(logger, L"L It really working..."); 
+		LOG4CXX_INFO(logger, L"L It really working...");
+		LOG4CXX_WARN(logger, L"L It really working...");
+		LOG4CXX_ERROR(logger, L"L It really working...");
+		LOG4CXX_FATAL(logger, L"L It really working...");
 	} 
 
 	//rootLogger->info(_T("它的确工作了"));//与上面那句话功能相当  
