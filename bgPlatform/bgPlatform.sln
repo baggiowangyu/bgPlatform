@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "日志系统", "日志系�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bgLoggingDemo", "bgLoggingDemo\bgLoggingDemo.vcxproj", "{919AFCB6-978D-4E2B-99D4-99ABBE482DAF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "进程间通信系统", "进程间通信系统", "{30BC8124-2AAA-43B6-BBF5-A475B74C4819}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bgIpcListener", "bgIpcListener\bgIpcListener.vcxproj", "{AA17AC10-7A3E-41A7-B3DE-DB6077A73653}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -21,11 +25,16 @@ Global
 		{919AFCB6-978D-4E2B-99D4-99ABBE482DAF}.Debug|Win32.Build.0 = Debug|Win32
 		{919AFCB6-978D-4E2B-99D4-99ABBE482DAF}.Release|Win32.ActiveCfg = Release|Win32
 		{919AFCB6-978D-4E2B-99D4-99ABBE482DAF}.Release|Win32.Build.0 = Release|Win32
+		{AA17AC10-7A3E-41A7-B3DE-DB6077A73653}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AA17AC10-7A3E-41A7-B3DE-DB6077A73653}.Debug|Win32.Build.0 = Debug|Win32
+		{AA17AC10-7A3E-41A7-B3DE-DB6077A73653}.Release|Win32.ActiveCfg = Release|Win32
+		{AA17AC10-7A3E-41A7-B3DE-DB6077A73653}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{919AFCB6-978D-4E2B-99D4-99ABBE482DAF} = {A37A7052-777E-4F7E-8956-767C41A78B99}
+		{AA17AC10-7A3E-41A7-B3DE-DB6077A73653} = {30BC8124-2AAA-43B6-BBF5-A475B74C4819}
 	EndGlobalSection
 EndGlobal
